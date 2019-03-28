@@ -4,12 +4,12 @@ import time
 import random
 
 def chooseWord():
-    wordNumber = random.randint(0, 3)
+    wordNumber = random.randint(0, 4)
     word = words[wordNumber]
     os.system("echo " + word)
     os.system("say " + word)
 
-words = ["estachtological", "teleological", "episotomological", "Apollinarianism", "Theodicy", "Kenosis" ]
+words = ["estachtological", "teleological", "episotomological", "Theodicy", "Kenosis" ]
 
 for i in range(0, 10):
     #choose an interval
