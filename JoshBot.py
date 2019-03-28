@@ -9,7 +9,7 @@ def chooseWord():
     os.system("echo " + word)
     os.system("say " + word)
 
-words = ["estachtological", "anthropopathism", "apocrypha", "Apollinarianism"]
+words = ["estachtological", "teleological", "episotomological", "Apollinarianism"]
 
 for i in range(0, 10):
     #choose an interval
